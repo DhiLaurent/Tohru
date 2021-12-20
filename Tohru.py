@@ -22,7 +22,7 @@ elif len(sys.argv) == 2:
 		from art import *
 		# Banner
 		banner()
-		# All Hash
+		# Full Hash
 		hash = input("\033[31mHash Completa:\033[m ")
 		# Salt
 		salt = input("\033[31mSalt:\033[m ")
