@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# i'm still gonna fix art lib and git import hold on
 
 import crypt
 import sys
