@@ -40,8 +40,6 @@ elif len(sys.argv) == 2:
 					if hashsalt == hash:
 						print(f"\033[31m[HASH]:\033[m {hashsalt} \033[31m\n[SENHA]:\033[m {line}")
 						exit()
-					else:
-						break
 		except Exception as error:
 			print("Wordlist didn't load")
 	except:
