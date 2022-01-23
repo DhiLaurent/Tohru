@@ -32,14 +32,17 @@ elif len(sys.argv) == 2:
 		print("			+--------------------------------------------+\033[m")
 		print("\n")
 		# Opening and reading Wordlist
-		with open(sys.argv[1],'r', encoding='iso8859_15') as file:
-			while (line := file.readline().rstrip()):
-				hashsalt = crypt.crypt(line,salt)
-				# if hash match
-				if hashsalt == hash:
-					print(f"\033[31m[HASH]:\033[m {hashsalt} \033[31m\n[SENHA]:\033[m {line}")
-					exit()
+		try:
+			with open(sys.argv[1],'r', encoding='iso8859_15') as file:
+				while (line := file.readline().rstrip()):
+					hashsalt = crypt.crypt(line,salt)
+					# if hash match
+					if hashsalt == hash:
+						print(f"\033[31m[HASH]:\033[m {hashsalt} \033[31m\n[SENHA]:\033[m {line}")
+						exit()
+		except Exception as error:
+			print("Wordlist didn't load")
 	except:
-		print("")
+		print("Module not installed")
 
 
