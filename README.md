@@ -18,7 +18,7 @@ Hash Completa: $6$FJxnWBuM$KGY5W5wdIEL2mR8Jv5mcGPSKC6EPZW7Mruhqf5rZazegntdExwUcJ
 
 Salt: $6$FJxnWBuM$
 
-Após colocar os argumentos, o script irá solicitar a Hash completa e Salt para tentar quebrar a senha baseado na WordList, caso não consiga não irá retornar nada.
+Após colocar os argumentos, o script irá solicitar se deseja esconder as tentativas de quebra de senha, caso sim ele rodara o script em background se não cada uma das tentativas sera mostrada na tela até o final da WordList ou a senha ser encontrada.
 
 EN-US
 
