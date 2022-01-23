@@ -42,8 +42,10 @@ elif len(sys.argv) == 2:
 						exit()
 		except Exception as error:
 			print("Wordlist didn't load")
-	except:
+			print(error)
+	except Exception as error:
 		print("Module not installed")
+		print(error)
 print("Tohru couldn't break the hash :c")
 
 
