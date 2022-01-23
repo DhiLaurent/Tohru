@@ -26,22 +26,30 @@ elif len(sys.argv) == 2:
                 hash = input("\033[31mHash Completa:\033[m ")
                 # Salt
                 salt = input("\033[31mSalt:\033[m ")
+                show = input("WordList Oculta/Hide WordList (Y/N) ?").upper()
                 print("\n")
                 print("\033[31m                 +--------------------------------------------+")
                 print("                 |        Cracking hold a second...           |")
                 print("                 +--------------------------------------------+\033[m")
                 print("\n")
                 # Opening and reading Wordlist
+
                 try:
                         with open(sys.argv[1],'r', encoding='iso8859_15') as file:
                                 while (line := file.readline().rstrip()):
                                         hashsalt = crypt.crypt(line,salt)
+
+                                        if show == "Y":
                                         # if hash match
-                                        if hashsalt == hash:
-                                                print(f"\033[31m[HASH]:\033[m {hashsalt} \033[31m\n[SENHA]:\033[m {line}")
-                                                exit()
-                                        #else:
-                                        #       print(hashsalt)
+                                                if hashsalt == hash:
+                                                        print(f"\033[31m[HASH]:\033[m {hashsalt} \033[31m\n[SENHA]:\033[m {line}")
+                                                        exit()
+                                        elif show == "N":
+                                                print(f"{line} - {hashsalt}\n")
+
+                                                if hashsalt == hash:
+                                                        print(f"\033[31m[HASH]:\033[m {hashsalt} \033[31m\n[SENHA]:\033[m {line}")
+                                                        exit()
 
                 except Exception as error:
                         print("\033[31m[*] Wordlist didn't load")
@@ -55,5 +63,5 @@ elif len(sys.argv) == 2:
 print("\033[31m------------------------------------------------------------------------------\n")
 print("                 +--------------------------------------------+")
 print("                 |      Tohru couldn't break the hash :c      |")
-print("                 +--------------------------------------------+")
-print("\033[31m------------------------------------------------------------------------------\n")
+print("                 +--------------------------------------------+\n")
+print("\033[31m------------------------------------------------------------------------------")
