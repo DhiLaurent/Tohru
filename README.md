@@ -40,4 +40,4 @@ Full Hash: $6$FJxnWBuM$KGY5W5wdIEL2mR8Jv5mcGPSKC6EPZW7Mruhqf5rZazegntdExwUcJoSqC
 
 Salt: $6$FJxnWBuM$
 
-After putting arguments, Tohru will request if you would like to show she trying to break the password, in case no script gonna run in background until WordList ends or Tohru finds the Password.
+After putting arguments, Tohru will request if you would like to show she trying to break the password, in case "no" script gonna run in background until WordList ends or Tohru finds the Password.
