@@ -14,7 +14,7 @@ Como usar:
 
 Python3 Tohru.py (WordList)
 
-Exemplo:
+# Exemplo:
 
 Hash Completa: $6$FJxnWBuM$KGY5W5wdIEL2mR8Jv5mcGPSKC6EPZW7Mruhqf5rZazegntdExwUcJoSqCzYrifutf6QoSRsyO0YQWxTTQo4yP1
 
