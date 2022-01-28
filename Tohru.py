@@ -53,7 +53,6 @@ elif len(sys.argv) == 2:
 
                 except Exception as error:
                         print(f"\033[31m[*] Wordlist didn't load\n[*] {error}")
-                        print(error)
                         exit()
 
         except Exception as error:
