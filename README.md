@@ -2,7 +2,7 @@
 
 Obs: Ainda será feito um PDF com imagens :)
 
-PT-BR
+# PT-BR
 
 Tohru é um script de Brute-Force em hashes /etc/shadow do Linux 
 
@@ -22,7 +22,7 @@ Salt: $6$FJxnWBuM$
 
 Após colocar os argumentos, o script irá solicitar se deseja esconder as tentativas de quebra de senha, caso sim ela rodara o script em background se não cada uma das tentativas sera mostrada na tela até o final da WordList ou a senha ser encontrada.
 
-EN-US
+# EN-US
 
 Tohru is a Brute-Force script to unhash /etc/shadow password on Linux
 
