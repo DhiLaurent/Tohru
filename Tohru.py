@@ -52,13 +52,12 @@ elif len(sys.argv) == 2:
                                                         exit()
 
                 except Exception as error:
-                        print("\033[31m[*] Wordlist didn't load")
+                        print(f"\033[31m[*] Wordlist didn't load\n[*] {error}")
                         print(error)
                         exit()
 
         except Exception as error:
-                print("\033[31m[*] Module not installed")
-                print(error)
+                print(f"\033[31m[*] Module not installed\n[*] Try pip install art\n[*] {error}")
                 exit()
 print("\033[31m------------------------------------------------------------------------------\n")
 print("                 +--------------------------------------------+")
