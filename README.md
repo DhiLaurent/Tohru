@@ -10,7 +10,7 @@ Tohru é um script de Brute-Force em hashes /etc/shadow do Linux
 
 Comando: pip install art
 
-Como usar:
+# Como usar:
 
 Python3 Tohru.py (WordList)
 
@@ -30,11 +30,11 @@ Tohru is a Brute-Force script to unhash /etc/shadow password on Linux
 
 Command: pip install art
 
-How to use:
+# How to use:
 
 Python3 Tohru.py (WordList)
 
-Example:
+# Example:
 
 Full Hash: $6$FJxnWBuM$KGY5W5wdIEL2mR8Jv5mcGPSKC6EPZW7Mruhqf5rZazegntdExwUcJoSqCzYrifutf6QoSRsyO0YQWxTTQo4yP1
 
