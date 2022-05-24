@@ -18,7 +18,7 @@ Python3 Tohru.py (WordList)
 
 Hash Completa: $6$FJxnWBuM$KGY5W5wdIEL2mR8Jv5mcGPSKC6EPZW7Mruhqf5rZazegntdExwUcJoSqCzYrifutf6QoSRsyO0YQWxTTQo4yP1
 
-Salt: \$6$FJxnWBuM$\
+Salt: 6$FJxnWBuM
 
 Após colocar os argumentos, o script irá solicitar se deseja esconder as tentativas de quebra de senha, caso sim ela rodara o script em background se não cada uma das tentativas sera mostrada na tela até o final da WordList ou a senha ser encontrada.
 
