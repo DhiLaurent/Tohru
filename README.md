@@ -1,6 +1,6 @@
 # Tohru
 
-![Alt text](/Tohru/Tohru.png?raw=true)
+![](/Tohru/Tohru.png?raw=true)
 
 Obs: Ainda será feito um PDF com imagens :)
 
