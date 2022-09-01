@@ -1,5 +1,7 @@
 # Tohru
 
+![Alt text](/relative/path/to/Tohru.png?raw=true)
+
 Obs: Ainda será feito um PDF com imagens :)
 
 # PT-BR
