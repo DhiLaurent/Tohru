@@ -1,6 +1,6 @@
 # Tohru
 
-![](/Tohru/Tohru.png?raw=true)
+![](/Tohru.png?raw=true)
 
 Obs: Ainda será feito um PDF com imagens :)
 
