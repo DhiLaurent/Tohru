@@ -40,6 +40,6 @@ Python3 Tohru.py (WordList)
 
 Full Hash: $6$FJxnWBuM$KGY5W5wdIEL2mR8Jv5mcGPSKC6EPZW7Mruhqf5rZazegntdExwUcJoSqCzYrifutf6QoSRsyO0YQWxTTQo4yP1
 
-Salt: $6$FJxnWBuM$
+Salt: (dollar sign)6(dollar sign)FJxnWBuM(dollar sign)
 
 After putting arguments, Tohru will request if you would like to show she trying to break the password, in case "no", script gonna run in background until WordList ends or Tohru finds the Password.
