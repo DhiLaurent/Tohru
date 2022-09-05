@@ -24,6 +24,8 @@ Salt: (cifrão)6(cifrão) (cifão)FJxnWBuM(cifrão)
 
 Após colocar os argumentos, o script irá solicitar se deseja esconder as tentativas de quebra de senha, caso sim ela rodara o script em background se não cada uma das tentativas sera mostrada na tela até o final da WordList ou a senha ser encontrada.
 
+Observação: Infelizmente até o momento Tohru não consegue encontrar a senha caso identifique que a Wordlist tenha um espaço em branco noo meio dela :c
+
 # EN-US
 
 Tohru is a Brute-Force script to unhash /etc/shadow password on Linux
@@ -43,3 +45,5 @@ Full Hash: $6$FJxnWBuM$KGY5W5wdIEL2mR8Jv5mcGPSKC6EPZW7Mruhqf5rZazegntdExwUcJoSqC
 Salt: (dollar sign)6(dollar sign)FJxnWBuM(dollar sign)
 
 After putting arguments, Tohru will request if you would like to show she trying to break the password, in case "no", script gonna run in background until WordList ends or Tohru finds the Password.
+
+
