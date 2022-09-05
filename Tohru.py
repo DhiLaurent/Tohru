@@ -2,8 +2,9 @@
 
 import crypt
 import sys
+import os
 
-
+os.system("clear")
 def banner():
         print("\033[31m---------------------------------------------------")
         tprint(" Tohru ",font="slant")
