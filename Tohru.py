@@ -59,9 +59,3 @@ elif len(sys.argv) == 2:
         except Exception as error:
                 print(f"\033[31m[*] Module not installed\n[*] Try pip install art\n[*] {error}")
                 exit()
-print("\033[31m------------------------------------------------------------------------------\n")
-print("                 +--------------------------------------------+")
-print("                 |      Tohru couldn't break the hash :c      |")
-print("                         |        Try to change WordList              |")
-print("                 +--------------------------------------------+\n")
-print("\033[31m------------------------------------------------------------------------------")
