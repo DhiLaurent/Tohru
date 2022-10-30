@@ -24,7 +24,9 @@ Salt: (cifrão)6(cifrão) (cifão)FJxnWBuM(cifrão)
 
 Após colocar os argumentos, o script irá solicitar se deseja esconder as tentativas de quebra de senha, caso sim ela rodara o script em background se não cada uma das tentativas sera mostrada na tela até o final da WordList ou a senha ser encontrada.
 
-Obs: Infelizmente até o momento Tohru não consegue encontrar a senha caso identifique que a Wordlist tenha um espaço em branco noo meio dela :c
+Obs: Infelizmente até o momento Tohru não consegue encontrar a senha caso i	dentifique que a Wordlist tenha um espaço em branco noo meio dela :c 
+
+Comando: sed '/^$/d' arquivoantigo.txt > arquivonovo.txt 
 
 # EN-US
 
@@ -42,9 +44,11 @@ Python3 Tohru.py (WordList)
 
 Full Hash: $6$FJxnWBuM$KGY5W5wdIEL2mR8Jv5mcGPSKC6EPZW7Mruhqf5rZazegntdExwUcJoSqCzYrifutf6QoSRsyO0YQWxTTQo4yP1
 
-Salt: (dollar sign)6(dollar sign)FJxnWBuM(dollar sign)
+Salt: (dollar sign)6(dollar sign)FJxnWBuM(dollar sign) \$6\$FJxnWBuM$
 
-After putting arguments, Tohru will request if you would like to show she trying to break the password, in case "no", script gonna run in background until WordList ends or Tohru finds the Password.
+After putting arguments, Tohru will ask if you want to see her performing the attempts in real time, if not, type “Y”.
 
-Obs: Unfortunately at the moment Tohru can't find the password if have a blank line in the middle of wordlist :c
+Obs: Unfortunately until this moment Tohru can't find the password if have a blank line in the middle of wordlist :c, but if you use sed command you can’ “fix” it 
+
+Command: sed '/^$/d' oldfile.txt > newfile.txt 
 
