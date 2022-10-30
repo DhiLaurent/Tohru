@@ -44,7 +44,7 @@ Python3 Tohru.py (WordList)
 
 Full Hash: $6$FJxnWBuM$KGY5W5wdIEL2mR8Jv5mcGPSKC6EPZW7Mruhqf5rZazegntdExwUcJoSqCzYrifutf6QoSRsyO0YQWxTTQo4yP1
 
-Salt: (dollar sign)6(dollar sign)FJxnWBuM(dollar sign) \$6\$FJxnWBuM$
+Salt: (dollar sign)6(dollar sign)FJxnWBuM(dollar sign)
 
 After putting arguments, Tohru will ask if you want to see her performing the attempts in real time, if not, type “Y”.
 
