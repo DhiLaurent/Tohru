@@ -2,8 +2,6 @@
 
 ![](/Tohru.png?raw=true)
 
-Obs: Ainda será feito um PDF com imagens :)
-
 # PT-BR
 
 Tohru é um script de Brute-Force em hashes /etc/shadow do Linux 
