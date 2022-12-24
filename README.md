@@ -46,7 +46,7 @@ Salt: (dollar sign)6(dollar sign)FJxnWBuM(dollar sign)
 
 After putting arguments, Tohru will ask if you want to see her performing the attempts in real time, if not, type “Y”.
 
-Obs: Unfortunately until this moment Tohru can't find the password if have a blank line in the middle of wordlist :c, but if you use sed command you can’ “fix” it 
+Obs: Unfortunately until this moment Tohru can't find the password if have a blank line in the middle of wordlist :c, but if you use sed command you can “fix” it 
 
 Command: sed '/^$/d' oldfile.txt > newfile.txt 
 
