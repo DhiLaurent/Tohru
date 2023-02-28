@@ -1,6 +1,6 @@
 # Tohru
 
-![](/Tohru.png?raw=true)
+![](/Tohruu.png?raw=true)
 
 # PT-BR
 
