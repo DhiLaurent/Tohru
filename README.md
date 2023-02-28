@@ -22,7 +22,7 @@ Salt: (cifrão)6(cifrão) (cifão)FJxnWBuM(cifrão)
 
 Após colocar os argumentos, o script irá solicitar se deseja esconder as tentativas de quebra de senha, caso sim ela rodara o script em background se não cada uma das tentativas sera mostrada na tela até o final da WordList ou a senha ser encontrada.
 
-Obs: Infelizmente até o momento Tohru não consegue encontrar a senha caso identifique que a Wordlist tenha um espaço em branco noo meio dela :c 
+Obs: Infelizmente até o momento Tohru não consegue encontrar a senha caso identifique que a Wordlist tenha um espaço em branco no meio dela :c 
 
 Comando: sed '/^$/d' arquivoantigo.txt > arquivonovo.txt 
 
