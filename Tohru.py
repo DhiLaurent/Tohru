@@ -66,7 +66,7 @@ elif len(sys.argv) == 2:
                         exit()
 
         except Exception as error:
-                print(f"\033[31m[*] Module not installed\n[*] Try pip install art\n[*] {error}")
+                print(f"\033[31m[*] Module not installed\n[*] {error}")
                 print(f"\033[32m[+] Module art installed run script again!")
                 os.system("pip3 install art > /dev/null 2>&1")
                 exit()
