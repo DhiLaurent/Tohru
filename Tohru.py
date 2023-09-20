@@ -33,11 +33,17 @@ elif len(sys.argv) == 2:
                 print("                 |        Cracking hold a second...           |")
                 print("                 +--------------------------------------------+\033[m")
                 print("\n")
+
+                # Format wordlist
+                wordlist = sys.argv[1]
+                os.system(f"sed '/^$/d' {wordlist} > clear_wordlist.txt")
+
                 # Opening and reading Wordlist
 
                 try:
-                        with open(sys.argv[1],'r', encoding='iso8859_15') as file:
+                        with open('clear_wordlist.txt','r', encoding='iso8859_15') as file:
                                 while (line := file.readline().rstrip()):
+
                                         hashsalt = crypt.crypt(line,salt)
 
                                         if show == "Y":
@@ -45,12 +51,15 @@ elif len(sys.argv) == 2:
                                                 if hashsalt == hash:
                                                         print(f"\033[31m[HASH]:\033[m {hashsalt} \033[31m\n[SENHA]:\033[m {line}")
                                                         exit()
+                                                        os.system(f"rm clear_wordlist.txt")
                                         elif show == "N":
                                                 print(f"{line} - {hashsalt}\n")
 
                                                 if hashsalt == hash:
                                                         print(f"\033[31m[HASH]:\033[m {hashsalt} \033[31m\n[SENHA]:\033[m {line}")
                                                         exit()
+                                                        os.system(f"rm clear_wordlist.txt")
+
 
                 except Exception as error:
                         print(f"\033[31m[*] Wordlist didn't load\n[*] {error}")
@@ -58,4 +67,6 @@ elif len(sys.argv) == 2:
 
         except Exception as error:
                 print(f"\033[31m[*] Module not installed\n[*] Try pip install art\n[*] {error}")
+                print(f"\033[32m[+] Module art installed run script again!")
+                os.system("pip3 install art > /dev/null 2>&1")
                 exit()
