@@ -34,9 +34,7 @@ Tohru is a Brute-Force script to unhash /etc/shadow (SHA-512 crypt) password on 
 Cloning
 
 ````
-```
 $ git clone https://github.com/DhiLaurent/Tohru
-```
 ````
 
 
