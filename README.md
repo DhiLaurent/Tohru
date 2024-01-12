@@ -2,6 +2,12 @@
 
 ![](/Tohruu.png?raw=true)
 
+## Cloning
+
+````
+$ git clone https://github.com/DhiLaurent/Tohru
+````
+
 ## PT-BR
 
 Tohru é um script de Brute-Force em hashes /etc/shadow (SHA-512 crypt) do Linux 
@@ -29,12 +35,6 @@ Após colocar os argumentos, o script irá solicitar se deseja esconder as tenta
 Tohru is a Brute-Force script to unhash /etc/shadow (SHA-512 crypt) password on Linux
 
 ## How to use:
-
-## Cloning
-
-````
-$ git clone https://github.com/DhiLaurent/Tohru
-````
 
 ````
 $ python3 Tohru.py (WordList)
