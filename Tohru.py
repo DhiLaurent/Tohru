@@ -35,7 +35,7 @@ else:
         salt = input("\033[31mSalt:\033[m ")
 
         # Option to show or not Cracking
-        show = input("WordList Oculta/Hide WordList (Y/N) ?").upper()
+        show = input("WordList Oculta/Hide WordList ?\n (Y/N): ").upper()
         print("\n")
         print("\033[31m                 +--------------------------------------------+")
         print("                 |        Cracking hold a second...           |")
