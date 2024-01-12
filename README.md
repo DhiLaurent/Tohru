@@ -21,13 +21,26 @@ Após colocar os argumentos, o script irá solicitar se deseja esconder as tenta
 
 
 
+
+
+
+
 # EN-US
 
 Tohru is a Brute-Force script to unhash /etc/shadow (SHA-512 crypt) password on Linux
 
 # How to use:
 
-Python3 Tohru.py (WordList)
+Cloning
+
+````
+```
+$ git clone https://github.com/DhiLaurent/Tohru
+```
+````
+
+
+python3 Tohru.py (WordList)
 
 # Example:
 
