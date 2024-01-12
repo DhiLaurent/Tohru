@@ -4,6 +4,7 @@ import crypt
 import sys
 import os
 import subprocess
+from datetime import datetime
 
 # Clear terminal
 def clear():
@@ -37,6 +38,7 @@ else:
         # Option to show or not Cracking
         show = input("\033[32m[!] WordList Oculta/Hide WordList ?\n[!] (Y/N):\033[m ").upper()
         print("\n")
+        print(datetime.now())
         print("\033[31m                 +--------------------------------------------+")
         print("                 |        Cracking hold a second...           |")
         print("                 +--------------------------------------------+\033[m")
@@ -55,6 +57,7 @@ else:
 
                     if show == "Y":
                         if hashsalt == hash:
+                            print(datetime.now())
                             print(f"\033[31m[HASH]:\033[m {hashsalt} \033[31m\n[SENHA]:\033[m {line}")
                             subprocess.run('rm clear_wordlist.txt', shell=True)
                             exit()
