@@ -31,6 +31,7 @@ Salt: (cifrão)6(cifão)FJxnWBuM(cifrão)
 Após colocar os argumentos, o script irá solicitar se deseja esconder as tentativas de quebra de senha, caso sim ela rodara o script em background se não cada uma das tentativas sera mostrada na tela até o final da WordList ou a senha ser encontrada.
 
 Caso o módulo "art" não esteja instalado Tohru irá instala-lo
+
 ![](/module.png?raw=true)
 
 
