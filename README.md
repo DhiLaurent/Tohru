@@ -19,12 +19,6 @@ Salt: (cifrão)6(cifão)FJxnWBuM(cifrão)
 
 Após colocar os argumentos, o script irá solicitar se deseja esconder as tentativas de quebra de senha, caso sim ela rodara o script em background se não cada uma das tentativas sera mostrada na tela até o final da WordList ou a senha ser encontrada.
 
-
-
-
-
-
-
 # EN-US
 
 Tohru is a Brute-Force script to unhash /etc/shadow (SHA-512 crypt) password on Linux
@@ -37,8 +31,9 @@ Cloning
 $ git clone https://github.com/DhiLaurent/Tohru
 ````
 
-
-python3 Tohru.py (WordList)
+````
+$ python3 Tohru.py (WordList)
+````
 
 # Example:
 
@@ -48,4 +43,4 @@ Salt: (dollar sign)6(dollar sign)FJxnWBuM(dollar sign)
 
 After putting arguments, Tohru will ask if you want to see her performing the attempts in real time, if not, type “Y”.
 
-
+In case "art" module isn't installed, Tohru will do
