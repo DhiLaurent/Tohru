@@ -61,7 +61,7 @@ else:
                             print(f"\033[31m[HASH]:\033[m {hashsalt} \033[31m\n[SENHA]:\033[m {line}")
                             subprocess.run('rm clear_wordlist.txt', shell=True)
                             exit()
-                            
+              
                     elif show == "N":
                         print(f"{line} - {hashsalt}\n")
 
