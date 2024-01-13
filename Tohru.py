@@ -30,10 +30,13 @@ else:
         # Banner
         banner()
 
-        # Full Hash
+        # Full hash
         hash = input("\033[31mHash Completa:\033[m ")
-        # Salt
-        salt = input("\033[31mSalt:\033[m ")
+
+        # Extracting Salt
+        extract = hash.split("$")
+        salt = f"${extract[1]}${extract[2]}$"
+        print(f"\033[31mSalt:\033[m {salt} ")
 
         # Option to show or not Cracking
         show = input("\033[32m[!] WordList Oculta/Hide WordList ?\n[!] (Y/N):\033[m ").upper()
